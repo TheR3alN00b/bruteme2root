@@ -1,2 +1,2 @@
 # bruteme2root
-Powershell windows service brute froce privilege escalation 
+Windows powershell service brute froce privilege escalation 
